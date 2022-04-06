@@ -1,0 +1,12 @@
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <cstdio>
+
+using namespace std;
+
+int main() {//begin of function
+     string nama;
+     cout<<"masuka nama"; cin>>nama;
+     cout<<"nama anda"<<nama;
+} //end of function

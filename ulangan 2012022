@@ -1,0 +1,35 @@
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <cstdio>
+using namespace std;
+
+int main (){
+
+int tugas;
+cout<<"Nilai tugas = "; cin>> tugas;
+if (tugas > 100){
+    cout<<"Nilai tidak boleh lebih dari 100";
+    return 0;
+}
+int UTS;
+cout<<"Nilai UTS = "; cin>> UTS;
+if (UTS > 100){
+    cout<<"Nilai tidak boleh lebih dari 100";
+    return 0;
+}
+int UAS;
+cout<<"Nilai UAS = "; cin>> UAS;
+if (UAS > 100){
+    cout<<"Nilai tidak boleh lebih dari 100";
+    return 0; 
+}
+tugas = 0,3*tugas;
+UTS = 0,3*UTS;
+UAS = 0,4*UAS;
+int akhir;
+akhir = (tugas*0,3) + (UTS*0,3) + (UAS*0,4);
+cout<<akhir;
+
+
+}

@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <cstdio>
+using namespace std;
+
+int main(){
+    int batasbawah, batasatas;
+    cout<<"Masukakan Batas bawah";cin>>batasbawah;
+    cout<<"Masukakan Batas atas";cin>>batasatas;
+    
+        
+    if(batasbawah > batasatas){
+        cout<<"Batas bawah tidak boleh lebih dari batas atas";
+        return 0;
+    }
+    else{
+        while (batasbawah++ <batasatas){
+        cout<<"Data ke -"<<batasbawah<<endl;
+        }
+    }
+    
+    
+    
+    
+    return 0;
+}

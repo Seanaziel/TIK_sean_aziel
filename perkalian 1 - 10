@@ -1,0 +1,57 @@
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <cstdio>
+using namespace std;
+int main(){
+    int number = 0;
+    while (number ++ <10){ //perulangan turun
+        cout<<"1 "<<" * "<<number<<" = "<<number*1<<endl;
+    }
+    cout<<endl<<endl;
+    number = 0;
+    while (number ++ <10){ //perulangan turun
+        cout<<"2 "<<" * "<<number<<" = "<<number*2<<endl;
+    }
+    cout<<endl<<endl;
+      number = 0;
+    while (number ++ <10){ //perulangan turun
+        cout<<"3 "<<" * "<<number<<" = "<<number*3<<endl;
+    }
+    cout<<endl<<endl;
+    number = 0;
+    while (number ++ <10){ //perulangan turun
+        cout<<"4 "<<" * "<<number<<" = "<<number*4<<endl;
+    }
+    cout<<endl<<endl;
+    number = 0;
+    while (number ++ <10){ //perulangan turun
+        cout<<"5 "<<" * "<<number<<" = "<<number*5<<endl;
+    }
+    cout<<endl<<endl;
+    number = 0;
+    while (number ++ <10){ //perulangan turun
+        cout<<"6 "<<" * "<<number<<" = "<<number*6<<endl;
+    }
+    cout<<endl<<endl;
+    number = 0;
+    while (number ++ <10){ //perulangan turun
+        cout<<"7 "<<" * "<<number<<" = "<<number*7<<endl;
+    }
+    cout<<endl<<endl;
+    number = 0;
+    while (number ++ <10){ //perulangan turun
+        cout<<"8 "<<" * "<<number<<" = "<<number*8<<endl;
+    }
+    cout<<endl<<endl;
+    number = 0;
+    while (number ++ <10){ //perulangan turun
+        cout<<"9 "<<" * "<<number<<" = "<<number*9<<endl;
+    }
+    cout<<endl<<endl;
+    number = 0;
+    while (number ++ <10){ //perulangan turun
+        cout<<"10 "<<" * "<<number<<" = "<<number*10<<endl;
+    }
+    return 0;
+}

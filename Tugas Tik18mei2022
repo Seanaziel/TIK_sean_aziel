@@ -3,9 +3,9 @@
 using namespace std;
 int main()
 {
-	int s,a;
+	int se,an;
 	float nilai;
-	string c[100] = {"","mm","cm","dm","m","dam","hm","km"};
+	string c[] = {"","mm","cm","dm","m","dam","hm","km"};
 	cout<<"Pilih Satuan awal"<<endl;
 	cout<<"1. mm"<<endl;
 	cout<<"2. cm"<<endl;
@@ -15,7 +15,7 @@ int main()
 	cout<<"6. hm"<<endl;
 	cout<<"7. km"<<endl;
 	cout<<"Pilih satuan: ";
-	cin>>s;
+	cin>>se;
 	cout<<"Masukan nilai: ";cin>>nilai;
 	cout<<"Pilih Konversi"<<endl;
 	cout<<"1. mm"<<endl;
@@ -26,14 +26,14 @@ int main()
 	cout<<"6. hm"<<endl;
 	cout<<"7. km"<<endl;
 	cout<<"Pilih konversi: ";
-	cin>>a;
-	if(s<a){
-		int temp = a-s;
-		cout<<"Hasil: "<<nilai/pow(10,temp)<<" "<<c[s];
-	}else if(s>a){
-		int temp = s-a;
-		cout<<"Hasil: "<<nilai*pow(10,temp)<<" "<<c[a];
-	}else if(s==a){
-		cout<<"Hasil: "<<nilai<<" "<<c[s];
+	cin>>an;
+	if(se<an){
+		int temp = an-se;
+		cout<<"Hasil: "<<nilai/pow(10,temp)<<" "<<c[se];
+	}else if(se>an){
+		int temp = se-an;
+		cout<<"Hasil: "<<nilai*pow(10,temp)<<" "<<c[an];
+	}else if(se==an){
+		cout<<"Hasil: "<<nilai<<" "<<c[se];
 	}
 } 
